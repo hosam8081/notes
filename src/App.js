@@ -9,7 +9,7 @@ import { useState } from "react";
 function App() {
 
   return (
-    <Router>
+    <Router basename="/notes">
       <Navbar />
       <Routes>
         <Route element={<ProtectedRoute />}>
